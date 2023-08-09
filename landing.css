@@ -1,0 +1,1106 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+ul li img
+{
+    width: 100px;
+    padding: 12px;
+}
+ul li
+{
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+}
+ul
+{
+    display: flex;
+    justify-content: space-between;
+}
+.nav1{
+    position: sticky;
+    top: 0px;
+}
+@media (max-width: 666px) 
+{
+  .nav1 img
+  {
+    display: none;
+  }
+}
+@media (max-width: 666px) 
+{
+  .second
+  {
+    display: none;
+  }
+}
+
+
+.card1{
+    height: 570px;
+    overflow-x: hidden;
+    width: 100%;
+}
+.first
+{
+    border: 2px solid whitesmoke;
+    border-radius: 30px 30px 30px 30px;
+    padding: 10px;
+}
+.first i
+{
+    color: white;
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 50%;
+    background-color: #FF0056;
+    margin-left: 10px;
+}
+.first:hover {
+    box-shadow: 0px 6px 6px wheat;
+}
+@media (max-width: 666px) 
+{
+  .first
+  {
+    margin-left: -70px;
+  }
+}
+span:hover
+{
+    box-shadow: 0px 6px 6px wheat;
+}
+
+
+a {
+    text-decoration: none;
+}
+.second
+{
+    padding: 15px;
+    margin-bottom: 10px; 
+}
+.second i
+{
+    margin-left: 20px;
+}
+.fa 
+{
+    margin-right: 10px; 
+}
+.second span
+{
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+}
+.third img
+{
+    width: 300px; 
+    height: 300px;
+    border-radius: 20px 20px 20px 20px;
+}
+.third {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.fourth img
+{
+    width: 300px; 
+    height: 300px;
+    border-radius: 20px 20px 20px 20px;
+}
+.fourth {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);   
+}
+.third i
+{
+    margin-left: 150px;
+}
+.fourth i
+{
+    margin-left: 150px;
+}
+.third img
+{
+    border: 1px solid black;
+}
+.fourth img
+{
+    border: 1px solid black;
+}
+/* ============buynow======== */
+.same1 img
+{
+    width:600px;
+    margin: 10px;
+    border-radius: 10px;
+}
+@media (max-width: 666px) 
+{
+  .same1 img
+  {
+    width: 300px;
+    margin-left: -15px;
+  }
+}
+.same2 img{
+  width: 280px;
+  padding: 10px;
+  border-radius: 20px 20px 20px 20px;
+}
+@media (max-width: 666px) 
+{ 
+  .same2 
+  {
+  
+    margin-left: -320px;
+    margin-top: 240px;
+    
+  }
+  .same2 img
+  {
+    width: 300px;
+  }
+
+}
+.same3 img{
+    width: 280px;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+}
+@media (max-width: 666px) 
+{ 
+  .same3
+  {
+  
+    margin-left: -320px;
+    margin-top: 680px;
+    
+  }
+  .same3 img
+  {
+    width: 300px;
+  }
+
+}
+
+.sixth
+{
+    display: flex;
+    overflow-y: hidden;
+}
+.sixth img
+{
+    width: 30px;
+    margin-left: 80px;
+}
+.sixth p 
+{
+    margin-left: 70px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 666px) 
+{
+  .container
+  {
+    margin-left: -14px;
+  }
+  .togg p
+  {
+    background-color: red;
+    margin-right: 27px;
+  }
+}
+.togg p
+{
+    border: 1px solid wheat;
+    border-radius: 10px 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.togg i
+{
+    margin-left: 150px;
+    font-size: 25px;
+}
+.jag h2
+{
+    margin-left: 60px;
+}
+.jag p
+{
+    margin-left: 60px;
+}
+@media (max-width: 666px) 
+{
+  .jag h2
+{
+   margin-left: 30px;
+   font-size: 34px;
+}
+ .jag p
+ {
+  margin-left: 30px;
+  font-size: 34px;
+ }
+}
+.wood 
+{
+    display: flex;
+    margin-left: 1110px;
+}
+.wood i 
+{
+    margin-left: 10px;
+}
+@media (max-width: 666px) 
+{
+  .wood
+  {
+    margin-left: 50px;
+  }
+}
+
+.same3
+{
+    margin-right: 230px;
+}
+.sixth::-webkit-scrollbar
+      {
+        display: none;
+      }
+@media (max-width: 666px) 
+{
+    .sixth
+    {
+      margin-left: -41px;
+    }
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+.image-container i.fa-heart-o 
+  {
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    z-index: 1; 
+  }
+  .third
+  {
+    margin-left: 50px;
+  }
+  @media (max-width: 666px) 
+    {
+      .third
+      {
+        display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 3px;
+      }
+    }
+  .fourth
+  {
+    margin-left: 50px;
+  }
+  @media (max-width: 666px) 
+  {
+    .fourth
+    {
+      display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin-left: 3px;
+    }
+  }
+  .container 
+  {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .content 
+  {
+    flex: 1;
+    padding-right: 20px;
+  }
+  @media (max-width: 666px) 
+  {
+   .content h1
+   {
+    margin-left: 35px;
+   }
+   .thik p 
+   {
+    margin-left: 40px;
+   }
+   .thik hr
+   {
+    width: 280px;
+    margin-left: 30px;
+   }
+
+  }
+  @media(max-width:666px)
+  {
+    .had
+    {
+        width: 80%;
+    }
+    .dah
+    {
+      margin-left: 120px;
+    }
+  }
+  @media (max-width: 666px) 
+  {
+    .fridge
+    {
+      margin-left: 70px;
+    }
+
+  }
+  .form 
+  {
+    flex: 1;
+    padding-left: 20px;
+  }
+  form 
+  {
+    padding: 20px;
+  }
+  h1, h2 
+  {
+    margin-top: 0;
+  }
+  label, input, textarea 
+  {
+    display: block;
+    margin-bottom: 10px;
+  }
+  input, textarea 
+  {
+    width: 100%;
+    padding: 5px;
+  }
+  button 
+  {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+  }
+  button:hover {
+    background-color: black;
+  }
+.mine 
+{
+    display: flex;
+}
+.mine div
+{
+    border: 1px solid black;
+    margin-left: 90px;
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+@media (max-width: 666px) 
+{
+  .mine
+  {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    margin-left: -30px;
+    
+  }
+  .camera
+  {
+    margin-top: 10px;
+  }
+  .camera i 
+  {
+    margin-left: 100px;
+  }
+  .camera p
+  {
+    margin-left: 70px;
+  }
+  .clatu
+  {
+    width: 280px;
+    margin-left: 30px;
+
+  }
+}
+  .boat 
+  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px; 
+    margin-bottom: 30px;
+  }
+  @media (max-width: 666px) 
+  {
+    .yours h2
+    {
+      margin-left: 70px;
+
+    }
+    .boat
+    {
+      margin-left: 60px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .demm
+    {
+      margin-left: 70px;
+    }
+  }
+
+  .item i 
+  {
+  font-size: 24px;
+    margin-right: 10px;
+  }
+  .item a
+  {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  @media (max-width: 666px) 
+  {
+    .boat .item a
+    {
+      margin-left: 30px;
+      
+      background-color: red;
+    }
+  }
+  .calendar 
+  {
+    max-width: 300px;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .days 
+  {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+  }
+  .day 
+  {
+    padding: 5px;
+    font-weight: bold;
+  }
+  .dates 
+  {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  .date 
+  {
+    padding: 5px;
+    text-align: center;
+  }
+  .calendar
+  {
+    border: 2px solid purple;
+  }
+  .date:hover {
+    background-color: purple;
+  }
+  .fe 
+  {
+    display: flex;
+  }
+  @media (max-width: 666px) 
+  {
+    .fe
+    {
+      display: grid;
+      
+    }
+    .calendar
+    {
+      width: 69%;
+      margin-top: 10px;
+    }
+  }
+  .pen
+  {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .nxt 
+  {
+  width: 250px;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  }
+  /* styles.css */
+  .eleven {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    gap: 10px; 
+  }
+  .bar-container 
+  {
+    display: flex;
+    align-items: center;
+  }
+  .bar {
+    width: 100px; 
+    height: 3px;
+    background-color: black;
+    margin-right: 10px; 
+  }
+  .bar-container span {
+    font-size: 14px; 
+  }
+  .revv
+  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 120px;
+  }
+  .revv div
+  {
+    margin-top: 20px;
+  }
+  @media (max-width: 666px) 
+  {
+    .revv 
+    {
+      margin-left: 10px;
+      width: 80%;
+    }
+  }
+  .rough a
+  {
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 120px;
+  }
+  @media (max-width: 666px) 
+  {
+    .rough a
+    {
+      margin-left: 50px;
+    }
+
+  }
+  .mapu iframe
+  {
+    width: 600px;
+    height: 400px;
+    margin-left: 500px;
+
+  }
+  @media (max-width: 666px) 
+  {
+    .mapu iframe 
+    {
+      margin-left: 20px;
+      width: 70%; 
+      height: 300px; 
+    }
+  }
+
+  .noe
+  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .tdo 
+  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .part
+  {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .dell
+  {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .last
+  {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .rtr
+  {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .fwe i 
+  {
+    margin-left: 20px;
+  }
+  .hst
+  {
+    margin-left: 120px;
+  }
+  @media (max-width: 666px) 
+  {
+    .hst
+    {
+      margin-left: 70px;
+    }
+  }
+
+  .noe
+  {
+    margin-left: 120px;
+  }
+  @media (max-width: 666px) 
+  {
+    .noe
+    {
+      margin-left: 30px;
+      width: 70%;
+    }
+  }
+  .hea
+  {
+    margin-left: 120px;
+  }
+  @media (max-width: 666px) 
+  {
+    .hea
+    {
+      margin-left: 60px;
+    }
+  }
+  .tdo
+{
+  margin-left: 120px;
+}
+@media (max-width: 666px) 
+{
+  .tdo
+  {
+    width: 77%;
+    margin-left: 10px;
+  }
+}
+.is
+{
+  margin-left: 120px;
+}
+@media (max-width: 666px) 
+{
+  .is
+  {
+    width: 70%;
+    margin-left: 20px;
+  }
+}
+.part
+{
+  margin-left: 120px;
+}
+@media (max-width: 666px) 
+{
+  .part
+  {
+    width: 77%;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+  }
+  .part a
+  {
+    margin-right: 10px;
+  }
+}
+.iot
+{
+  margin-left: 120px;
+}
+@media (max-width: 666px) 
+{
+  .iot
+  {
+    margin-left: 10px;
+  }
+}
+.dell
+{
+  margin-left: 120px; 
+
+}
+@media (max-width: 666px) 
+{
+  .dell
+  {
+    width: 70%;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+.frya
+{
+  margin-left: 120px;
+}
+@media (max-width: 666px) 
+{
+  .frya
+  {
+    width: 100%;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+.last
+{
+  margin-left: 120px;
+}
+@media (max-width: 666px) 
+{
+  .last
+  {
+    width: 80%;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+.fwe i 
+{
+  font-size: 20px;
+}
+.container
+{
+  justify-content: center;
+}
+
+.fifty
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.coon
+{
+  flex: 1;
+  padding-right: 20px;
+}
+.pearl
+{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+select
+{
+  color: red;
+  padding: 20px;
+  width: 600px;
+  border: 2px solid black;
+  border-radius: 10px 10px 0px 0px;
+}
+.numb
+{
+  width: 586px;
+}
+.numb input
+{
+  border: 2px solid black;
+  border-radius: 0px 0px 10px 10px;
+  padding-top: 30px;
+  padding-top: 30px;
+}
+.trt button
+{
+  padding: 20px;
+  width: 586px;
+  border: 1px solid red;
+  border-radius: 10px 10px 10px 10px;
+}
+@media (max-width: 666px) 
+{
+  .trt button
+  {
+    width: 90%;
+  }
+
+}
+.horizontal-container 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.horizontal-lines
+{
+  flex: 1;
+  height: 1px;
+  background-color: black;
+}
+
+.horizontal-container p 
+{
+  margin: 0 10px;
+}
+@media (max-width: 666px) 
+{
+  .horizontal-container 
+  {
+    width: 80%;
+  }
+}
+.logg
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+.logg div
+{
+  border: 2px solid black;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 20px 20px 20px 20px;
+}
+.logg i
+{
+  font-size: 30px;
+}
+@media (max-width: 666px) 
+{
+  .form
+  {
+    display: none;
+  }
+  .logg 
+  {
+    display: grid;
+    margin-left: -40px;
+    
+  }
+  .logg a 
+  {
+    margin-top: 20px;
+  }
+}
+.chalo
+{
+  border: 2px solid black;
+  border-radius: 20px 20px 20px 20px;
+}
+.chalo p
+{
+  margin-left: 250px;
+}
+@media (max-width: 666px) 
+{
+  .chalo
+  {
+    width: 85%;
+  }
+  .chalo p
+  {
+    margin-left: 60px;
+  }
+}
+
+.dffo
+{
+  margin-top: 20px;
+}
+@media (max-width: 666px) 
+{
+  .dffo a
+  {
+    margin-left: 0px;
+  }
+
+}
+@media (max-width: 666px) 
+{
+  .choy
+  {
+    width: 84.3%
+  }
+  .numb
+  {
+    width: 80%
+  }
+  .rgf
+  {
+    width: 84%;
+  }
+
+}
+.rtr a  
+{
+  margin-right: 20px;
+}
+@media (max-width: 666px) 
+{
+  .sicc p
+  {
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .rtr
+  {
+    display: block;
+  }
+  .fwe
+  {
+    width: 50%;
+  }
+  .fwe p
+  {   
+
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+   
+  }  
+}
+
+@media (max-width: 666px) 
+{
+    .nia p a
+    {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 666px) 
+{
+    .nice
+    {
+      width: 70%;
+      margin-left: 10px;
+    }
+}
+
+.fwe a 
+{
+  margin-left: 20px;
+}
+@media (max-width: 666px) 
+{
+  .fwe a 
+    {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.form 
+{
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.form h1
+{
+  text-align: center;
+}
+
+.form form 
+{
+  display: grid;
+  grid-gap: 10px;
+}
+.side 
+{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.side div {
+  padding: 15px;
+  border: 2px solid black;
+  text-align: center;
+}
+.guest select
+{
+  width: 550px;
+}
+
+.fry a 
+{
+  text-align: center;
+  color: white;
+  padding: 10px;
+  padding-left: 250px;
+  padding-right: 250px;
+  border-radius: 10px;
+  background-color: blue;
+  text-decoration: none;
+}
+
+.prc 
+{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+.tech
+{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 60px;
+}
+.ful
+{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 60px;
+}
+form h2 
+{
+  margin-left: 100px;
+}
+.image-container i:hover
+{
+  color: red;
+}
+.fa-brands.fa-square-facebook
+{
+  color: #0071C0;
+}
