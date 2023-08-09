@@ -504,6 +504,13 @@ a {
     grid-template-columns: repeat(7, 1fr);
     text-align: center;
   }
+  @media (max-width: 666px) 
+  {
+    .days
+    {
+      margin-left: -10px;
+    }
+  }
   .day 
   {
     padding: 5px;
