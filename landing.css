@@ -508,7 +508,7 @@ a {
   {
     .days
     {
-      margin-left: -16.5px;
+      margin-left: -10px;
     }
   }
   .day 
@@ -546,7 +546,7 @@ a {
     }
     .calendar
     {
-      width: 100%;
+      width: 79%;
       margin-top: 10px;
     }
   }
@@ -981,7 +981,7 @@ select
   {
     margin-left: 30px;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .rtr
   {
@@ -1004,10 +1004,10 @@ select
 
 @media (max-width: 666px) 
 {
-    .nia p a
+    .nia p 
     {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
     }
 }
 @media (max-width: 666px) 
@@ -1025,7 +1025,7 @@ select
 }
 @media (max-width: 666px) 
 {
-  .fwe a 
+  .fwe p
     {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
