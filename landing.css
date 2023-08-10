@@ -553,8 +553,9 @@ a {
     }
     .calendar
     {
-      width: 100%;
+      width: 96%;
       margin-top: 10px;
+      
     }
   }
   .pen
@@ -1146,4 +1147,21 @@ form h2
 .fa-brands.fa-square-facebook
 {
   color: #0071C0;
+}
+.shadow-line {
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  flex: 1;
+  border: none;
+  border-top: 2px solid red;
+  margin: 0;
+  padding: 0;
+}
+
+.line-with-shadow {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4); /* Adjust values as needed */
+  z-index: 1;
 }
