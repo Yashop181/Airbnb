@@ -315,7 +315,7 @@ a {
       {
         display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin-left: 3px;
+    margin-left: 23px;
       }
     }
   .fourth
@@ -328,7 +328,7 @@ a {
     {
       display: grid;
   grid-template-columns: repeat(1, 1fr);
-  margin-left: 3px;
+  margin-left: 23px;
     }
   }
   .container 
@@ -888,7 +888,7 @@ select
 {
   .trt button
   {
-    width: 90%;
+    width: 100%;
   }
 
 }
@@ -915,7 +915,8 @@ select
 {
   .horizontal-container 
   {
-    width: 80%;
+    margin-left: 0px;
+    width: 100%;
   }
 }
 .logg
@@ -982,7 +983,7 @@ select
 {
   .dffo a
   {
-    margin-left: 0px;
+    margin-left: 50px;
   }
 
 }
@@ -990,15 +991,15 @@ select
 {
   .choy
   {
-    width: 84.3%
+    width: 95%
   }
   .numb
   {
-    width: 80%
+    width: 91%
   }
   .rgf
   {
-    width: 84%;
+    width: 100%;
   }
 
 }
@@ -1035,6 +1036,10 @@ select
 
 @media (max-width: 666px) 
 {
+    .nia
+    {
+      margin-left: 30px;
+    }
     .nia p 
     {
       display: grid;
@@ -1045,8 +1050,8 @@ select
 {
     .nice
     {
-      width: 70%;
-      margin-left: 10px;
+      width: 100%;
+      margin-left: 1px;
     }
 }
 
