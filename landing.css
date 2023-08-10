@@ -8,6 +8,12 @@ body{
   {
     overflow-x: hidden;
   }
+  html {
+    scroll-behavior: smooth;
+  }
+}
+html {
+  scroll-behavior: smooth;
 }
 ul li img
 {
