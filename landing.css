@@ -553,7 +553,7 @@ a {
     }
     .calendar
     {
-      width: 79%;
+      width: 87%;
       margin-top: 10px;
     }
   }
@@ -604,7 +604,7 @@ a {
   {
     .revv 
     {
-      margin-left: 10px;
+      margin-left: 40px;
       width: 80%;
     }
   }
@@ -633,7 +633,7 @@ a {
   {
     .mapu iframe 
     {
-      margin-left: 20px;
+      margin-left: 40px;
       width: 70%; 
       height: 300px; 
     }
@@ -694,7 +694,7 @@ a {
   {
     .noe
     {
-      margin-left: 30px;
+      margin-left: 40px;
       width: 70%;
     }
   }
@@ -718,7 +718,7 @@ a {
   .tdo
   {
     width: 77%;
-    margin-left: 10px;
+    margin-left: 40px;
   }
 }
 .kardo
@@ -740,7 +740,7 @@ a {
     padding: 20px;
     background-color: #FF0056;
     border-radius: 20px;
-    margin-left: 50px;
+    margin-left: 90px;
     display: block;
     
   }
@@ -766,7 +766,7 @@ a {
   .part
   {
     width: 77%;
-    margin-left: 10px;
+    margin-left: 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
