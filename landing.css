@@ -953,12 +953,13 @@ select
   .logg 
   {
     display: grid;
-    margin-left: -40px;
+    margin-left: -5px;
     
   }
   .logg a 
   {
     margin-top: 20px;
+   
   }
 }
 .chalo
@@ -974,11 +975,12 @@ select
 {
   .chalo
   {
-    width: 85%;
+    width: 95%;
+    margin-left: 10px;
   }
   .chalo p
   {
-    margin-left: 60px;
+    margin-left: 70px;
   }
 }
 
