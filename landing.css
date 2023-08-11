@@ -1232,8 +1232,12 @@ form h2
     {
       margin-left: 20px;
     }
-    .keybot button
+    .keybot a
     {
+      background-color: red;
+      color: white;
+      padding: 10px 20px;
+      border: none;
       border-radius: 10px 10px 10px 10px;
     }
 }
