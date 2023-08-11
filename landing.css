@@ -959,7 +959,6 @@ select
   .logg a 
   {
     margin-top: 20px;
-   
   }
 }
 .chalo
@@ -995,6 +994,43 @@ select
     margin-left: 50px;
   }
 
+}
+.keypad
+{
+  display: none;
+}
+@media (max-width: 666px) 
+{
+  .keypad
+{
+  display: block;
+}
+}
+.keybor 
+{
+  display: none;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media (max-width: 666px) 
+{
+  .keybor 
+  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.mouice
+{
+  display: none;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media (max-width: 666px) 
+{
+  .mouice
+{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 }
 @media (max-width: 666px) 
 {
